@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Challenge</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img class="logo-alura" src="Imagenes/logo.svg" alt="Logo de Alura">
+            <h1 class="tittle">Encriptador de textos</h1>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="left">
+                <textarea id="ingresoTexto" class="ingreso-texto" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="left-footer">
+                    <img src="Imagenes/alerta.svg">
+                    <span class="left-info">Solo letras minúsculas y sin acentos.</span>
+                    <div class="left-buttons">
+                        <button id="buttonEncriptar" class="button-encriptar">Encriptar</button>
+                        <button id="buttonDesencriptar" class="button-desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div id="right" class="right">
+                <img id="munheco" class="munheco" src="Imagenes/munheco.svg">
+                <textarea id="mensajeFinal" class="mensaje-final" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <p id="rightInfo" class="right-info">Ingrese el texto que desee encriptar o desencriptar</p>
+                <button id="buttonCopiar" class="button-copy oculto">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="creador">Realizado por Miguel Pizan Salcedo</p>
+        <a href="https://github.com/MiguelJPS" target="_blank"><img class="link1" src="Imagenes/github.svg"></a>
+        <a href="https://www.linkedin.com/in/miguel-jhonatan-pizan-salcedo/" target="_blank"><img class="link2" src="Imagenes/linkedin.svg"></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
